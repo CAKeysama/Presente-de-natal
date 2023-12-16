@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Natalina</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Adicionando fontes do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos adicionais, se necessário */
+    body {
+      background-color: #0d47a1;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    h1, h2, h3 {
+      color: #ffeb3b;
+    }
+    .espacamento {
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    .rotate-img {
+      transform: scaleX(-1);
+    }
+    /* Estilo para aumentar o tamanho dos textos e aplicar a fonte */
+    .texto-grande {
+      font-size: 2rem;
+    }
+    .fonte-festiva {
+      font-family: 'Great Vibes', cursive;
+    }
+    .fonte-legivel {
+      font-family: 'Caveat', cursive;
+    }
+    /* Estilos natalinos */
+    .natal-border {
+      border: 0.5rem dashed #ffeb3b;
+      background-color: #1a237e;
+      padding: 1rem;
+    }
+    .natal-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid natal-border">
+  <div class="row justify-content-center espacamento">
+    <div class="col-md-4 text-center">
+      <img src="fireworks.jpg" alt="Imagem 1" class="img-fluid natal-img">
+    </div>
+    <div class="col-md-4 text-center fonte-legivel">
+      <p class="texto-grande">FELIZ NATAL</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="fireworks.jpg" alt="Imagem 2" class="img-fluid rotate-img natal-img">
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-8 text-center fonte-festiva">
+      <p class="texto-grande">Seu presente é um vale pix de</p>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-8 text-center">
+      <img src="nota de 50.jpg" alt="Imagem 3" class="img-fluid natal-img">
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
